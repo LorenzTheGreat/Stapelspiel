@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Stapelspiel — Pistol Tetris</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pistol Tetris</h1>
+      <div class="board-wrap">
+        <canvas id="board" width="240" height="480"></canvas>
+        <div id="hud">
+          <div>Score: <span id="score">0</span></div>
+          <div>Level: <span id="level">1</span></div>
+          <div>Lines: <span id="lines">0</span></div>
+        </div>
+      </div>
+      <p class="controls">Steuerung: ← → ↓ (Bewegen), ↑ (Rotieren), Leertaste (Hard Drop)</p>
+      <footer>Veröffentlicht via GitHub Pages • Die Blöcke sind Pistolen 🔫</footer>
+    </div>
+    <script src="js/game.js"></script>
+  </body>
+</html>
